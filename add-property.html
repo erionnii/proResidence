@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+    <title>PRO Residence</title>
+    <link rel="icon" type="image/x-icon" href="./pro-residence-images/logo.PNG">
+</head>
+
+<body>
+
+
+    <!-- fshij dy headers -->
+
+
+    <header class="large-devices-header">
+        <div class="left-part-header">
+            <a href="index.html" class="header-logo"><img
+                    src="./pro-residence-images/image__2___1_-removebg-preview.png" alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="index.html" class="main-menu-link">home</a>
+                </li>
+                <li>
+                    <a href="./pages/about.html" class="main-menu-link">About</a>
+                </li>
+                <li>
+                    <a href="properties-catalog/properties-for-sale.html"
+                        class="main-menu-link">Marketplace</a>
+                </li>
+                
+                <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">profile<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="./account/personal-info.html" class="main-menu-link">Personal info</a>
+                                </li>
+                                <li>
+                                    <a href="./account/wishlist.html" class="main-menu-link">Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="./account/my-properties.html" class="main-menu-link">My properties</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="./pages/contact.html" class="main-menu-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <div class="small-devices-header">
+                <details class="header-details">
+                    <summary><i class="fa-solid fa-bars"></i></summary>
+                    <div class="all-menu-dropdown">
+                        <div class="menu-dropdown-content">
+                            <a href="index.html" class="menu-dropdown" id="home2">Home</a>
+                        </div>
+                        <div class="menu-dropdown-content">
+                            <a href="./properties-catalog/properties-for-sale.html" class="menu-dropdown" id="propSale2">Marketplace</a>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="profile-menu" class="label-menu-dropdown flex-menu-dropdown">profile<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="profile-menu" class="radio-menu-input">
+                            <label for="profile-menu"
+                                class="menu-dropdown-movement-content second-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-profile-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-profile-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="./account/personal-info.html" class="dropped-menu"
+                                        id="personalInfo2">Personal info</a>
+                                    <a href="./account/wishlist.html" class="dropped-menu" id="wishlist2">Wishlist</a>
+                                    <a href="./account/my-properties.html" class="dropped-menu" id="myProperties2">My
+                                        properties</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="pages-menu" class="label-menu-dropdown flex-menu-dropdown">pages<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="pages-menu" class="radio-menu-input">
+                            <label for="pages-menu"
+                                class="menu-dropdown-movement-content third-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-pages-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-pages-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="./pages/about.html" class="dropped-menu">About</a>
+                                    <a href="./pages/contact.html" class="dropped-menu">Contact</a>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="menu-dropdown-content" id="signInButtonSmall">
+                            <a href="./log-in/sign-in.html" class="menu-dropdown">Sign in</a>
+                        </div>
+                        <div class="addPropertySmallHeader">
+                            <a href="add-property.html" class="addPropBtn add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                                property</a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <a href="./log-in/sign-in.html" class="sign-in-button-header" id="signInButtonHeader"><i
+                    class="fa-regular fa-user"></i> Sign in</a>
+            <a href="./account/personal-info.html" class="profileButtonHeader" id="profileButtonHeader"><img
+                src="" id="profileImageHeader" alt="">
+                <p id="userName"></p>
+                </p>
+            </a>
+        </div>
+    </header>
+    <!-- <header class="large-devices-header relative-header">
+        <div class="left-part-header">
+            <a href="" class="header-logo"><img src="./pro-residence-images/image__2___1_-removebg-preview.png"
+                    alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">catalog</a>
+                </li>
+                <li>
+                    <a href="">account</a>
+                </li>
+                <li>
+                    <a href="">pages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <a href="" class="sign-in-button-header"><i class="fa-regular fa-user"></i> Sign in</a>
+            <a href="" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add property</a>
+        </div>
+    </header> -->
+
+
+
+
+    <!-- e fshin pjesen nalt -->
+
+    <!-- merri id e inputav edhe <select> </select> qa jon  -->
+    <!-- emrin e variablav qe i get kto leja me kan diqka qe lidhet me qat input -->
+
+
+    <div class="body-container">
+        <div class="add-property-row">
+            <div class="left-part-property">
+                <h1 class="add-property-title">Add property</h1>
+                <form action="" id="addPropertyForm" class="add-property-form">
+                    <div id="basic-info-add-property">
+                        <div class="group-informations-add-property">
+                            <div class="flex-title-add-property">
+                                <i class="fa-solid fa-info basic-info-i"></i>
+                                <h2 class="head-form-titles">Basic info</h2>
+                            </div>
+                            <label for="property-title">Title<strong> *</strong></label>
+                            <input type="text" id="property-title" maxlength="48">
+                            <div class="flex-input-property">
+                                <div class="group-flex-input-property">
+                                    <label for="select-sell-type-add-property">Category<strong> *</strong></label>
+                                    <select name="" id="select-sell-type-add-property" aria-label="select">
+                                        <option value="for-rent">For rent</option>
+                                        <option value="for-sale">For sale</option>
+                                    </select>
+                                </div>
+                                <div class="group-flex-input-property">
+                                    <label for="select-category-add-property">Property type<strong> *</strong></label>
+                                    <select name="" id="select-category-add-property" aria-label="select">
+                                        <option value="apartment">Apartment</option>
+                                        <option value="house">House</option>
+                                        <option value="commercial">Commercial</option>
+                                        <option value="daily-rent">Daily rent</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <h3 class="question-group-add-property">Are you listing as part of company?</h3>
+                            <div class="row-radio-add-property">
+                                <input type="radio" name="seller-type" id="company-seller">
+                                <label for="company-seller">I am registered bussines</label>
+                            </div>
+                            <div class="row-radio-add-property">
+                                <input type="radio" name="seller-type" id="private-seller" checked>
+                                <label for="private-seller">I am private seller</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="location-add-property">
+                        <div class="group-informations-add-property">
+                            <div class="flex-title-add-property">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h2 class="head-form-titles">Location</h2>
+                            </div>
+                            <div class="flex-input-property">
+                                <div class="group-flex-input-property">
+                                    <label for="select-country-add-property">Country <strong> *</strong></label>
+                                    <select name="" id="select-country-add-property" aria-label="select">
+                                        <option value="Kosovo">Kosovo</option>
+                                        <option value="Albania">Albania</option>
+                                        <option value="Macedonia">Macedonia</option>
+                                        <option value="Serbia">Serbia</option>
+                                        <option value="Montenegro">Montenegro</option>
+                                    </select>
+                                </div>
+                                <div class="group-flex-input-property">
+                                    <label for="city-add-property">City<strong> *</strong></label>
+                                    <input type="text" id="city-add-property">
+                                </div>
+                            </div>
+                            <div class="flex-input-property">
+                                <div class="group-flex-input-property long-group-flex-input-property">
+                                    <label for="district-add-property">District<strong> *</strong></label>
+                                    <input type="text" id="district-add-property">
+                                </div>
+                                <div class="group-flex-input-property long-group-flex-input-property">
+                                    <label for="zip-code-property">Zip code<strong> *</strong></label>
+                                    <input type="number" id="zip-code-property" aria-label="number" maxlength="5">
+                                </div>
+                            </div>
+                            <label for="street-address-add-property">Street address<strong> *</strong></label>
+                            <input type="text" id="street-address-add-property">
+                        </div>
+                    </div>
+                    <div id="property-details-add-property">
+                        <div class="group-informations-add-property">
+                            <div class="flex-title-add-property">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                                <h2 class="head-form-titles">Property details</h2>
+                            </div>
+                            <label for="area-add-property">Total area, sq.m</label>
+                            <input type="number" class="half-width-input" aria-label="number" max="200"
+                                id="area-add-property" value="60">
+                            <h3 class="question-group-add-property">Bedrooms</h3>
+                            <div class="row-buttons-add-property">
+                                <input type="radio" name="click-property-bedroom-add-property"
+                                    class="property-detail-add-product-input" id="none-bedroom-add-property">
+                                <label for="none-bedroom-add-property"
+                                    class="property-detail-add-product-label">-</label>
+                                <input type="radio" name="click-property-bedroom-add-property"
+                                    class="property-detail-add-product-input" id="one-bedroom-add-property">
+                                <label for="one-bedroom-add-property"
+                                    class="property-detail-add-product-label">1</label>
+                                <input type="radio" name="click-property-bedroom-add-property"
+                                    class="property-detail-add-product-input" id="two-bedroom-add-property">
+                                <label for="two-bedroom-add-property"
+                                    class="property-detail-add-product-label">2</label>
+                                <input type="radio" name="click-property-bedroom-add-property"
+                                    class="property-detail-add-product-input" id="three-bedroom-add-property">
+                                <label for="three-bedroom-add-property"
+                                    class="property-detail-add-product-label">3</label>
+                                <input type="radio" name="click-property-bedroom-add-property"
+                                    class="property-detail-add-product-input" id="four-bedroom-add-property">
+                                <label for="four-bedroom-add-property"
+                                    class="property-detail-add-product-label">4</label>
+                                <input type="radio" name="click-property-bedroom-add-property"
+                                    class="property-detail-add-product-input" id="five-bedroom-add-property">
+                                <label for="five-bedroom-add-property"
+                                    class="property-detail-add-product-label">5+</label>
+                            </div>
+                            <h3 class="question-group-add-property">Bedrooms</h3>
+                            <div class="row-buttons-add-property">
+                                <input type="radio" name="click-property-bathroom-add-property"
+                                    class="property-detail-add-product-input" id="none-bathroom-add-property">
+                                <label for="none-bathroom-add-property"
+                                    class="property-detail-add-product-label">-</label>
+                                <input type="radio" name="click-property-bathroom-add-property"
+                                    class="property-detail-add-product-input" id="one-bathroom-add-property">
+                                <label for="one-bathroom-add-property"
+                                    class="property-detail-add-product-label">1</label>
+                                <input type="radio" name="click-property-bathroom-add-property"
+                                    class="property-detail-add-product-input" id="two-bathroom-add-property">
+                                <label for="two-bathroom-add-property"
+                                    class="property-detail-add-product-label">2</label>
+                                <input type="radio" name="click-property-bathroom-add-property"
+                                    class="property-detail-add-product-input" id="three-bathroom-add-property">
+                                <label for="three-bathroom-add-property"
+                                    class="property-detail-add-product-label">3</label>
+                                <input type="radio" name="click-property-bathroom-add-property"
+                                    class="property-detail-add-product-input" id="four-bathroom-add-property">
+                                <label for="four-bathroom-add-property"
+                                    class="property-detail-add-product-label">4</label>
+                                <input type="radio" name="click-property-bathroom-add-property"
+                                    class="property-detail-add-product-input" id="five-bathroom-add-property">
+                                <label for="five-bathroom-add-property"
+                                    class="property-detail-add-product-label">5+</label>
+                            </div>
+                            <h3 class="question-group-add-property">Parking spots</h3>
+                            <div class="row-buttons-add-property">
+                                <input type="radio" name="click-property-parking-add-property"
+                                    class="property-detail-add-product-input" id="none-parking-add-property">
+                                <label for="none-parking-add-property"
+                                    class="property-detail-add-product-label">-</label>
+                                <input type="radio" name="click-property-parking-add-property"
+                                    class="property-detail-add-product-input" id="one-parking-add-property">
+                                <label for="one-parking-add-property"
+                                    class="property-detail-add-product-label">1</label>
+                                <input type="radio" name="click-property-parking-add-property"
+                                    class="property-detail-add-product-input" id="two-parking-add-property">
+                                <label for="two-parking-add-property"
+                                    class="property-detail-add-product-label">2</label>
+                                <input type="radio" name="click-property-parking-add-property"
+                                    class="property-detail-add-product-input" id="three-parking-add-property">
+                                <label for="three-parking-add-property"
+                                    class="property-detail-add-product-label">3</label>
+                                <input type="radio" name="click-property-parking-add-property"
+                                    class="property-detail-add-product-input" id="four-parking-add-property">
+                                <label for="four-parking-add-property"
+                                    class="property-detail-add-product-label">4</label>
+                                <input type="radio" name="click-property-parking-add-property"
+                                    class="property-detail-add-product-input" id="five-parking-add-property">
+                                <label for="five-parking-add-property"
+                                    class="property-detail-add-product-label">5+</label>
+                            </div>
+                            <h3 class="question-group-add-property">Amenities</h3>
+                            <div class="flex-checkboxes-add-property">
+                                <div class="group-flex-checkboxes-add-property">
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="wifi-check" checked>
+                                        <label for="wifi-check">WiFi</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="air-condition-check" checked>
+                                        <label for="air-condition-check">Air conditioning</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="balcony-check" checked>
+                                        <label for="balcony-check">Balcony</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="garage-check">
+                                        <label for="garage-check">Garage</label>
+                                    </div>
+                                </div>
+                                <div class="group-flex-checkboxes-add-property">
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="gym-check">
+                                        <label for="gym-check">Gym</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="parking-check" checked>
+                                        <label for="parking-check">Parking</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="pool-check">
+                                        <label for="pool-check">Pool</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="tv-check" checked>
+                                        <label for="tv-check">TV</label>
+                                    </div>
+                                </div>
+                                <div class="group-flex-checkboxes-add-property">
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="heating-check">
+                                        <label for="heating-check">Heating</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="dishwasher-check">
+                                        <label for="dishwasher-check">Dishwasher</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="kitchen-check" checked>
+                                        <label for="kitchen-check">Kitchen</label>
+                                    </div>
+                                    <div class="checkbox-row">
+                                        <input type="checkbox" id="security-check" checked>
+                                        <label for="security-check">Security cameras</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <label for="description-add-property"
+                                class="description-label-add-property">Description</label>
+                            <textarea name="text" placeholder="Describe your property" id="description-add-property"
+                                class="description-textarea-add-property" wrap="soft"
+                                style=" overflow-y: hidden; resize:none; min-height: 150px;"
+                                maxlength="1500"></textarea>
+                        </div>
+                    </div>
+                    <div id="price-add-property">
+                        <div class="group-informations-add-property">
+                            <div class="flex-title-add-property">
+                                <i class="fa-solid fa-money-bills"></i>
+                                <h2 class="head-form-titles">Price</h2>
+                            </div>
+                            <label for="enter-price-add-property">Price<strong> *</strong></label>
+                            <div class="flex-price-add-property">
+
+                                <!-- dfsfsd -->
+                                <select name="" id="priceCurrency" aria-label="select">
+                                    <!-- fsdgfsd -->
+
+                                    <option value="$">$</option>
+                                    <option value="€">€</option>
+                                    <option value="£">£</option>
+                                </select>
+                                <input type="number" id="enter-price-add-property" placeholder="Price" aria-label="number">
+                                <select name="" id="priceTime" aria-label="select">
+                                    <option value="lifetime">lifetime</option>
+                                    <option value="day">per day</option>
+                                    <option value="week">per week</option>
+                                    <option value="month">per month</option>
+                                    <option value="year">per year</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="photo-add-property">
+                        <div class="group-informations-add-property">
+                            <div class="flex-title-add-property">
+                                <i class="fa-regular fa-image"></i>
+                                <h2 class="head-form-titles">Photos / video</h2>
+                            </div>
+                            <div class="addPhotoAll">
+                                <label for="add-photo" class="add-photo-label">
+                                    <h1 class="first-element-add-photo"><i class="fa-solid fa-cloud-arrow-up"></i>
+                                        Upload
+                                        photos / video</h1>
+                                    <h1 class="second-element-add-photo">or drag them in</h1>
+                                </label>
+                                <input type="file" id="add-photo" class="add-photo-input" aria-label="file">
+                                <div class="containerImg" id="containerImg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contact-add-property">
+                        <div class="group-informations-add-property">
+                            <div class="flex-title-add-property">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <h2 class="head-form-titles">Personal Info</h2>
+                            </div>
+                            <div class="flex-input-property">
+                                <div class="group-flex-input-property">
+                                    <label for="first-name-add-property">First name<strong> *</strong></label>
+                                    <input type="text" id="first-name-add-property">
+                                </div>
+                                <div class="group-flex-input-property">
+                                    <label for="last-name-add-property">Last name<strong> *</strong></label>
+                                    <input type="text" id="last-name-add-property">
+                                </div>
+                            </div>
+                            <div class="flex-input-property">
+                                <div class="group-flex-input-property">
+                                    <label for="email-add-property">Email<strong> *</strong></label>
+                                    <input type="email" id="email-add-property">
+                                </div>
+                                <div class="group-flex-input-property">
+                                    <label for="number-add-property">Phone number<strong> *</strong></label>
+                                    <input type="number" id="number-add-property" aria-label="number">
+                                </div>
+                            </div>
+                            <label for="company-name-add-property">Company name</label>
+                            <input type="text" id="company-name-add-property">
+                        </div>
+                    </div>
+                    <div class="center-element-div-add-property">
+                        <p class="errorInfo" id="errorInfo"></p>
+                        <input type="submit" value="Post your property">
+                    </div>
+                </form>
+            </div>
+
+
+
+
+            <!-- fshije qita -->
+            <div class="fixed-part-property">
+                <h1 class="fixed-part-title-add-property">Steps to do:</h1>
+                <ul class="fixed-part-ul-add-property">
+                    <li>
+                        <a href="#basic-info-add-property">Basic info</a>
+                    </li>
+                    <li>
+                        <a href="#location-add-property">Location</a>
+                    </li>
+                    <li>
+                        <a href="#property-details-add-property">Property details</a>
+                    </li>
+                    <li>
+                        <a href="#price-add-property">Price range</a>
+                    </li>
+                    <li>
+                        <a href="#photo-add-property">Photos / video</a>
+                    </li>
+                    <li>
+                        <a href="#contact-add-property">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="main-row-footer">
+                <div class="group-footer-col-for-responsive">
+                    <div class="first-col-footer">
+                        <img src="./pro-residence-images/image__2___1_-removebg-preview.png" alt="" class="footer-img">
+                        <div class="first-col-footer-row">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>hysenierion8@gmail.com</p>
+                        </div>
+                        <div class="first-col-footer-row">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>045-812-737</p>
+                        </div>
+                        <div class="first-col-footer-row-icons">
+                            <a href="https://www.facebook.com/erion.hyseni.54" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/erion.hyseni.54/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Quick links</h1>
+                        <ul>
+                            <li>
+                                <a href="./properties-catalog/properties-for-sale.html">Buy property</a>
+                            </li>
+                            <li>
+                                <a href="add-property.html">Sell property</a>
+                            </li>
+                            <li>
+                                <a href="./properties-catalog/properties-for-rent.html">Rent property</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Other menu</h1>
+                        <ul>
+                            <li>
+                                <a href="./pages/about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="./account/personal-info.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="./pages/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fourth-col-footer">
+                    <h1>Last review</h1>
+                    <div class="review-by-person-single-product">
+                        <div class="first-row-review-single-product">
+                            <div class="profile-info-review-single-product">
+                                <div class="profile-img-single-product">
+                                    <img src="./pro-residence-images/apartment.jpg" alt="">
+                                </div>
+                                <div class="profile-name-single-product">
+                                    <h1>James Wilson</h1>
+                                    <div class="stars-row-single-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-part-first-row-review-single-product">
+                                <p>Nov 18, 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-content-single-product">
+                            <p>Nje menyre perfekte te arrijme te gjejme qka eshte e mire permes ketij website. Ne kete aplikacion une dhe disa nga te afermit e mi kemi arritur qe te blejme dhe shesim disa nga pronat tona. Faleminderit Pro Residence per kete projekt i cili na ndihmoi shume.
+                            </p>
+                        </div>
+                        <div class="like-review-single-product">
+                            <div class="group-like-review-single-product">
+                                <input type="radio" id="like-review" name="like-dislike" class="like-input-review"
+                                    aria-label="radio-like">
+                                <label for="like-review" class="like-label-review"><i
+                                        class="fa-regular fa-thumbs-up"></i></label>
+                            </div>
+                            <div class="group-like-review-single-product last-group-like-review-single-product">
+                                <input type="radio" id="dislike-review" name="like-dislike" class="dislike-input-review"
+                                    aria-label="radio-like">
+                                <label for="dislike-review" class="dislike-label-review"><i
+                                        class="fa-regular fa-thumbs-down"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="last-row-footer">
+            <h1>@All rights reserved. Made by <strong>Pro Residence</strong></h1>
+        </div>
+    </footer>
+    <script src="addPropertyLogic.js"></script>
+</body>
+
+</html>

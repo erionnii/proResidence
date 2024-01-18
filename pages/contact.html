@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+        <title>PRO Residence</title>
+        <link rel="icon" type="image/x-icon" href="../pro-residence-images/logo.PNG">
+    </head>
+<body>
+    <header class="large-devices-header catalog-header">
+        <div class="left-part-header">
+            <a href="../index.html" class="header-logo"><img
+                    src="../pro-residence-images/image__2___1_-removebg-preview.png" alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="../index.html" class="main-menu-link">home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="main-menu-link">About</a>
+                </li>
+                <li>
+                    <a href="../properties-catalog/properties-for-sale.html" class="main-menu-link" id="propSaleAbout">Marketplace</a>
+                </li>
+                
+                <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">profile<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="../account/personal-info.html" class="main-menu-link" id="personalInfoAbout">Personal info</a>
+                                </li>
+                                <li>
+                                    <a href="../account/wishlist.html" class="main-menu-link" id="wishlistAbout">Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="../account/my-properties.html" class="main-menu-link" id="myPropertiesAbout">My properties</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="contact.html" class="main-menu-link main-menu-link-active">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <div class="small-devices-header">
+                <details class="header-details">
+                    <summary><i class="fa-solid fa-bars"></i></summary>
+                    <div class="all-menu-dropdown">
+                        <div class="menu-dropdown-content">
+                            <a href="../index.html" class="menu-dropdown" id="home2">Home</a>
+                        </div>
+                        <div class="menu-dropdown-content">
+                            <a href="../properties-catalog/properties-for-sale.html" class="menu-dropdown" id="propSale2">Marketplace</a>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="profile-menu" class="label-menu-dropdown flex-menu-dropdown">profile<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="profile-menu" class="radio-menu-input">
+                            <label for="profile-menu"
+                                class="menu-dropdown-movement-content second-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-profile-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-profile-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="../account/personal-info.html" class="dropped-menu"
+                                        id="personalInfo2">Personal info</a>
+                                    <a href="../account/wishlist.html" class="dropped-menu" id="wishlist2">Wishlist</a>
+                                    <a href="../account/my-properties.html" class="dropped-menu" id="myProperties2">My
+                                        properties</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="pages-menu" class="label-menu-dropdown flex-menu-dropdown">pages<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="pages-menu" class="radio-menu-input">
+                            <label for="pages-menu"
+                                class="menu-dropdown-movement-content third-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-pages-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-pages-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="./about.html" class="dropped-menu">About</a>
+                                    <a href="./contact.html" class="dropped-menu">Contact</a>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="menu-dropdown-content" id="signInButtonSmall">
+                            <a href="../log-in/sign-in.html" class="menu-dropdown">Sign in</a>
+                        </div>
+                        <div class="addPropertySmallHeader">
+                            <a href="../add-property.html" class="addPropBtn add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                                property</a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <a href="../add-property.html" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                property</a>
+            <a href="./log-in/sign-in.html" class="sign-in-button-header" id="signInButtonHeader"><i class="fa-regular fa-user"></i>
+                Sign in</a>
+            <a href="../account/personal-info.html" class="profileButtonHeader" id="profileButtonHeader"><img
+                    src="../pro-residence-images/useri-removebg-preview.png" id="profileImageHeader" alt="">
+                            <p id="userName"></p>
+</p>
+            </a>
+        </div>
+    </header>
+    <!-- <header class="large-devices-header relative-header catalog-header">
+        <div class="left-part-header">
+            <a href="" class="header-logo"><img src="../pro-residence-images/image__2___1_-removebg-preview.png"
+                    alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">catalog</a>
+                </li>
+                <li>
+                    <a href="">account</a>
+                </li>
+                <li>
+                    <a href="">pages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <a href="" class="sign-in-button-header"><i class="fa-regular fa-user"></i> Sign in</a>
+            <a href="" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add property</a>
+        </div>
+    </header> -->
+    <div class="body-container">
+        <div class="first-part-contact">
+            <div class="left-first-part-contact">
+                <h1 class="contact-title">Get in touch!</h1>
+                <p>To contact with us, just fill out the forms and our team will try to contact with you as fast they can.</p>
+                <div class="contact-main-image">
+                    <img src="../pro-residence-images/image_processing20200121-30622-g2g2.gif" alt="">
+                </div>
+            </div>
+            <div class="right-first-part-contact">
+                <form action="" class="contact-us-form add-property-form">
+                    <label for="name">Full name<strong> *</strong></label>
+                    <input type="text" required>
+                    <label for="email">Your email<strong> *</strong></label>
+                    <input type="email" required>
+                    <label for="description-add-property"
+                    class="description-label-add-property">Description</label>
+                <textarea name="text" placeholder="Enter your message" id="description-add-property"
+                    class="description-textarea-add-property" wrap="soft"
+                    style=" overflow-y: hidden; resize:none; min-height: 150px;"
+                    maxlength="1500"></textarea>                
+                    <input type="submit" value="Submit message">
+                </form>
+            </div>
+        </div>
+        <div class="second-part-contact">
+            <div class="col">
+                <i class="fa-regular fa-envelope contact-icon"></i>
+                <p class="second-part-about-col-description">Mail us!</p>
+                <h1 class="second-part-contact-heading">hysenierion8@gmail.com</h1>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-mobile-screen-button contact-icon"></i>
+                <p class="second-part-about-col-description">Call us</p>
+                <h1 class="second-part-contact-heading">045-812-737</h1>
+            </div>
+            <div class="col">
+                <i class="fa-brands fa-instagram contact-icon"></i>
+                <p class="second-part-about-col-description">Follow us</p>
+                <h1 class="second-part-contact-heading">erionihyseni</h1>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="main-row-footer">
+                <div class="group-footer-col-for-responsive">
+                    <div class="first-col-footer">
+                        <img src="../pro-residence-images/image__2___1_-removebg-preview.png" alt="" class="footer-img">
+                        <div class="first-col-footer-row">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>hysenierion8@gmail.com</p>
+                        </div>
+                        <div class="first-col-footer-row">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>045-812-737</p>
+                        </div>
+                        <div class="first-col-footer-row-icons">
+                            <a href="https://www.facebook.com/erion.hyseni.54" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/erion.hyseni.54/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Quick links</h1>
+                        <ul>
+                            <li>
+                                <a href="../properties-catalog/properties-for-sale.html">Buy property</a>
+                            </li>
+                            <li>
+                                <a href="../add-property.html">Sell property</a>
+                            </li>
+                            <li>
+                                <a href="../properties-catalog/properties-for-rent.html">Rent property</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Other menu</h1>
+                        <ul>
+                            <li>
+                                <a href="about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="../account/personal-info.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fourth-col-footer">
+                    <h1>Last review</h1>
+                    <div class="review-by-person-single-product">
+                        <div class="first-row-review-single-product">
+                            <div class="profile-info-review-single-product">
+                                <div class="profile-img-single-product">
+                                    <img src="../pro-residence-images/apartment.jpg" alt="">
+                                </div>
+                                <div class="profile-name-single-product">
+                                    <h1>James Wilson</h1>
+                                    <div class="stars-row-single-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-part-first-row-review-single-product">
+                                <p>Nov 18, 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-content-single-product">
+                            <p>An absolutely perfect way to find what is good by searching in websites. Thank you Pro Residence for this website, because you helped me on two occasions. First one when I was selling my house, and second is when I was looking to buy an apartment and I did it here. In 2 cases I am so happy with your work. 
+                            </p>
+                        </div>
+                        <div class="like-review-single-product">
+                            <div class="group-like-review-single-product">
+                                <input type="radio" id="like-review" name="like-dislike" class="like-input-review" aria-label="radio-like">
+                                <label for="like-review" class="like-label-review"><i
+                                        class="fa-regular fa-thumbs-up"></i></label>
+                            </div>
+                            <div class="group-like-review-single-product last-group-like-review-single-product">
+                                <input type="radio" id="dislike-review" name="like-dislike" class="dislike-input-review"  aria-label="radio-like">
+                                <label for="dislike-review" class="dislike-label-review"><i
+                                        class="fa-regular fa-thumbs-down"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="last-row-footer">
+            <h1>@All rights reserved. Made by <strong>Pro Residence</strong></h1>
+        </div>
+    </footer>
+    <script src="contactLogic.js"></script>
+</body>
+</html>

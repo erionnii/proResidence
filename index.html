@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+    <title>PRO Residence</title>
+    <link rel="icon" type="image/x-icon" href="./pro-residence-images/logo.PNG">
+</head>
+
+<body>
+    <header class="large-devices-header">
+        <div class="left-part-header">
+            <a href="index.html" class="header-logo"><img
+                    src="./pro-residence-images/image__2___1_-removebg-preview.png" alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="index.html" class="main-menu-link main-menu-link-active" id="home">home</a>
+                </li>
+                <li>
+                    <a href="./pages/about.html" class="main-menu-link">About</a>
+                </li>
+                <li>
+                    <a href="./properties-catalog/properties-for-sale.html" class="main-menu-link"
+                        id="propSale">Marketplace</a>
+                </li>
+                <!-- <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">catalog<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                
+                                <li>
+                                    <a href="./properties-catalog/properties-for-rent.html" class="main-menu-link"
+                                        id="propRent">Property for rent</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li> -->
+                <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">profile<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="./account/personal-info.html" class="main-menu-link"
+                                        id="personalInfo">Personal info</a>
+                                </li>
+                                <li>
+                                    <a href="./account/wishlist.html" class="main-menu-link" id="wishlist">Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="./account/my-properties.html" class="main-menu-link" id="myProperties">My
+                                        properties</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">pages<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="./pages/about.html" class="main-menu-link">About</a>
+                                </li>
+                                <li>
+                                    <a href="./pages/contact.html" class="main-menu-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li> -->
+
+                <li>
+                    <a href="./pages/contact.html" class="main-menu-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <div class="small-devices-header">
+                <details class="header-details">
+                    <summary><i class="fa-solid fa-bars"></i></summary>
+                    <div class="all-menu-dropdown">
+                        <div class="menu-dropdown-content">
+                            <a href="index.html" class="menu-dropdown" id="home2">Home</a>
+                        </div>
+                        <div class="menu-dropdown-content">
+                            <a href="./properties-catalog/properties-for-sale.html" class="menu-dropdown" id="propSale2">Marketplace</a>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="profile-menu" class="label-menu-dropdown flex-menu-dropdown">profile<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="profile-menu" class="radio-menu-input">
+                            <label for="profile-menu"
+                                class="menu-dropdown-movement-content second-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-profile-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-profile-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="./account/personal-info.html" class="dropped-menu"
+                                        id="personalInfo2">Personal info</a>
+                                    <a href="./account/wishlist.html" class="dropped-menu" id="wishlist2">Wishlist</a>
+                                    <a href="./account/my-properties.html" class="dropped-menu" id="myProperties2">My
+                                        properties</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="pages-menu" class="label-menu-dropdown flex-menu-dropdown">pages<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="pages-menu" class="radio-menu-input">
+                            <label for="pages-menu"
+                                class="menu-dropdown-movement-content third-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-pages-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-pages-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="./pages/about.html" class="dropped-menu">About</a>
+                                    <a href="./pages/contact.html" class="dropped-menu">Contact</a>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="menu-dropdown-content" id="signInButtonSmall">
+                            <a href="./log-in/sign-in.html" class="menu-dropdown">Sign in</a>
+                        </div>
+                        <div class="addPropertySmallHeader">
+                            <a href="add-property.html" class="addPropBtn add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                                property</a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <a href="add-property.html" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                property</a>
+            <a href="./log-in/sign-in.html" class="sign-in-button-header" id="signInButtonHeader"><i
+                    class="fa-regular fa-user"></i> Sign in</a>
+            <a href="./account/personal-info.html" class="profileButtonHeader" id="profileButtonHeader"><img
+                    src="../pro-residence-images/useri-removebg-preview.png" id="profileImageHeader" alt="">
+                <p id="userName"></p>
+                </p>
+            </a>
+
+        </div>
+    </header>
+    <!-- <header class="large-devices-header relative-header">
+        <div class="left-part-header">
+            <a href="" class="header-logo"><img src="./pro-residence-images/image__2___1_-removebg-preview.png"
+                    alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">catalog</a>
+                </li>
+                <li>
+                    <a href="">account</a>
+                </li>
+                <li>
+                    <a href="">pages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <a href="" class="sign-in-button-header"><i class="fa-regular fa-user"></i> Sign in</a>
+            <a href="" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add property</a>
+        </div>
+    </header> -->
+    <div class="body-container">
+        <section class="main-part-home">
+
+            <div class="flex-container-main-part">
+                <div class="left-part-main-section-home">
+                    <h1>search. see. love</h1>
+                    <p>We made the best way for sale, rent or purchase of real estate. We are a real estate company that
+                        you
+                        can trust for your property. Search different properties on Pro Residence</p>
+                </div>
+                <div class="right-part-main-section-home">
+                    <img src="./pro-residence-images/rescue-g8341812d9_1280-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="filter-main-section-home">
+                <!-- <div class="dyt">
+                    <div class="filter-main-section-home-group firstt">
+                        <i class="fa-solid fa-house-laptop"></i>
+                        <select name="for-rent-sell" id="for-rent-sell" aria-label="Search">
+                            <option value="">For rent</option>
+                            <option value="">For sale</option>
+                        </select>
+                    </div>
+                    <div class="filter-main-section-home-group">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <select name="select-country" id="select-country" aria-label="Search">
+                            <option value="">Kosovo</option>
+                            <option value="">Albania</option>
+                            <option value="">Macedonia</option>
+                            <option value="">Serbia</option>
+                            <option value="">Montenegro</option>
+                        </select>
+                    </div>
+                    <div class="filter-main-section-home-group last">
+                        <i class="fa-solid fa-server"></i>
+                        <select name="select-property" id="select-property" aria-label="Search">
+                            <option value="">Houses</option>
+                            <option value="">Apartments</option>
+                            <option value="">Room</option>
+                            <option value="">Commercial</option>
+                            <option value="">Daily rental</option>
+                            <option value="">Offices</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-main-section-home-group price">
+                    <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                    <h1>Price</h1>
+                    <input type="range" max="50" min="20" id="slider" aria-label="Search">
+                    <button aria-label="search-button-home"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div> -->
+        </section>
+        <div class="second-part-home">
+            <a href="properties-catalog/properties-for-sale.html" class="col">
+                <div class="icon-container-second-part-home">
+                    <i class="fa-solid fa-house-user"></i>
+                </div>
+                <h1>Houses</h1>
+            </a>
+            <a href="properties-catalog/properties-for-sale.html" class="col">
+                <div class="icon-container-second-part-home">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+                <h1>Apartments</h1>
+            </a>
+            <a href="properties-catalog/properties-for-sale.html" class="col">
+                <div class="icon-container-second-part-home">
+                    <i class="fa-solid fa-cash-register"></i>
+                </div>
+                <h1>Commercial</h1>
+            </a>
+            <a href="properties-catalog/properties-for-rent.html" class="col">
+                <div class="icon-container-second-part-home">
+                    <i class="fa-solid fa-bed"></i>
+                </div>
+                <h1>Rental</h1>
+            </a>
+            <a href="properties-catalog/properties-for-sale.html" class="col">
+                <div class="icon-container-second-part-home">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h1>Offices</h1>
+            </a>
+            <a href="properties-catalog/properties-for-sale.html" class="col">
+                <div class="icon-container-second-part-home">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <h1>More</h1>
+            </a>
+        </div>
+
+        <div class="third-part-home">
+            <div class="col">
+                <div class="big-image-col"><img src="./pro-residence-images/6.png" alt=""></div>
+                <h1>Buy a property</h1>
+                <p>You can see different properties to buy in Pro Residence website. Click and get lost in the wonder of
+                    shopping!</p>
+                <a href="./properties-catalog/properties-for-sale.html">Find property</a>
+            </div>
+            <div class="col">
+                <div class="big-image-col"><img src="./pro-residence-images/5.png" alt=""></div>
+                <h1>Sell a property</h1>
+                <p>If you are trader or you want to sell your property, by clicking on our website you choosed the
+                    fastest and the best way to do it.</p>
+                <a href="./add-property.html">Sell property</a>
+            </div>
+            <div class="col lastt">
+                <div class="big-image-col"><img src="./pro-residence-images/2.png" alt=""></div>
+                <h1>Rent a property</h1>
+                <p>You are looking to open any bussines or something like that, and you are looking for any rent
+                    property. Here you can find different rent properties online.</p>
+                <a href="./properties-catalog/properties-for-sale.html">Find rental</a>
+            </div>
+        </div>
+
+        <div class="fourth-part-home">
+            <h1 class="fourth-part-home-title">Top offers</h1>
+            <div class="fourth-part-home-row" id="containerTopOffer">
+
+            </div>
+        </div>
+        <div class="fifth-part-home">
+            <h1 class="fourth-part-home-title">Last items</h1>
+            <div class="fifth-part-home-row">
+                <div class="left-part">
+                    <div class="first">
+                        <img id="firstImageHome" class="image" src="./pro-residence-images/villa.jpg" alt="">
+                        <div class="top-part-fifth-part-home">
+                            <h2 class="new-element">New</h2>
+                        </div>
+                        <div class="bottom-part-fifth-part-home">
+                            <div class="left-part-bottom">
+                                <h3 id="firstForType">For rent</h3>
+                                <h1 id="firstTitleHome">Luxury Rental Villa</h1>
+                                <h2 id="firstStreetHome" class="addressHome">Rruga e Dibrës Vila 153, Tirana, Albania
+                                </h2>
+                            </div>
+                            <div class="right-part-bottom">
+                                <div class="right-part-bottom-container">
+                                    <h2 id="firstPriceHome">From 8.550$</h2>
+                                    <div class="like-fifth-part-home">
+                                        <label for="first-like-fifth-row-single-product" class="main-like"><i
+                                                class="fa-regular fa-heart"></i></label>
+                                        <input type="checkbox" checked id="first-like-fifth-row-single-product"
+                                            class="checkbox-like" aria-label="check">
+                                        <label for="first-like-fifth-row-single-product" class="heart"><i
+                                                class="fa-solid fa-heart "></i></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-part">
+                    <div class="group-fifth-part-home">
+                        <img id="secondImageHome" class="image" src="./pro-residence-images/home.jpg" alt="">
+                        <div class="top-part-fifth-part-home">
+                            <h2 class="new-element">New</h2>
+                        </div>
+                        <div class="bottom-part-fifth-part-home">
+                            <div class="left-part-bottom">
+                                <h3 id="secondForType">For sale</h3>
+                                <h1 id="secondTitleHome">Luxury Grand House</h1>
+                                <h2 id="secondStreetHome" class="addressHome">Ilir Konushevci, Prishtina 10000</h2>
+                            </div>
+                            <div class="right-part-bottom">
+                                <div class="right-part-bottom-container">
+                                    <h2 id="secondPriceHome">$543.500</h2>
+                                    <div class="like-fifth-part-home">
+                                        <label for="second-like-fifth-row-single-product" class="main-like"><i
+                                                class="fa-regular fa-heart"></i></label>
+                                        <input type="checkbox" checked id="second-like-fifth-row-single-product"
+                                            class="checkbox-like" aria-label="check">
+                                        <label for="second-like-fifth-row-single-product" class="heart"><i
+                                                class="fa-solid fa-heart "></i></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-right-part">
+                    <div class="group-fifth-part-home">
+                        <img id="thirdImageHome" class="image" src="./pro-residence-images/family-home.jpg" alt="">
+                        <div class="top-part-fifth-part-home">
+                            <h2 class="new-element">New</h2>
+                        </div>
+                        <div class="bottom-part-fifth-part-home">
+                            <div class="left-part-bottom">
+                                <h3 id="thirdForType">For sale</h3>
+                                <h1 id="thirdTitleHome">Family Home</h1>
+                                <h2 id="thirdStreetHome" class="addressHome">XK, Ismail Kryeziu, Prizren 20000</h2>
+                            </div>
+                            <div class="right-part-bottom">
+                                <div class="right-part-bottom-container">
+                                    <h2 id="thirdPriceHome">$480.000</h2>
+                                    <div class="like-fifth-part-home">
+                                        <label for="third-like-fifth-row-single-product" class="main-like"><i
+                                                class="fa-regular fa-heart"></i></label>
+                                        <input type="checkbox" checked id="third-like-fifth-row-single-product"
+                                            class="checkbox-like" aria-label="check">
+                                        <label for="third-like-fifth-row-single-product" class="heart"><i
+                                                class="fa-solid fa-heart "></i></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="sixth-part-home">
+            <h1 class="fourth-part-home-title">Search by city</h1>
+            <div class="sixth-part-home-row">
+                <a href="" class="card">
+                    <div class="image">
+                        <img src="./pro-residence-images/prishtina.jpg" alt="">
+                        <div class="sixth-part-home-statistics">
+                            <div class="row first-row">
+                                <div class="left-part">
+                                    <h3>For sale</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>589</h4>
+                                </div>
+                            </div>
+                            <div class="row second-row">
+                                <div class="left-part">
+                                    <h3>for rent</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>768</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-part-card">
+                        <h1>Prishtina</h1>
+                    </div>
+                </a>
+                <a href="" class="card">
+                    <div class="image">
+                        <img src="./pro-residence-images/tirana.jpg" alt="">
+                        <div class="sixth-part-home-statistics">
+                            <div class="row first-row">
+                                <div class="left-part">
+                                    <h3>For sale</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>936</h4>
+                                </div>
+                            </div>
+                            <div class="row second-row">
+                                <div class="left-part">
+                                    <h3>for rent</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>1432</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-part-card">
+                        <h1>Tirana</h1>
+                    </div>
+                </a>
+                <a href="" class="card">
+                    <div class="image">
+                        <img src="./pro-residence-images/skopje.jpg" alt="">
+                        <div class="sixth-part-home-statistics">
+                            <div class="row first-row">
+                                <div class="left-part">
+                                    <h3>For sale</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>992</h4>
+                                </div>
+                            </div>
+                            <div class="row second-row">
+                                <div class="left-part">
+                                    <h3>for rent</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>1003</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-part-card">
+                        <h1>Skopje</h1>
+                    </div>
+                </a>
+                <a href="" class="card">
+                    <div class="image">
+                        <img src="./pro-residence-images/belgrade.jpg" alt="">
+                        <div class="sixth-part-home-statistics">
+                            <div class="row first-row">
+                                <div class="left-part">
+                                    <h3>For sale</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>864</h4>
+                                </div>
+                            </div>
+                            <div class="row second-row">
+                                <div class="left-part">
+                                    <h3>for rent</h3>
+                                </div>
+                                <div class="right-part">
+                                    <h4>907</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-part-card">
+                        <h1>Belgrade</h1>
+                    </div>
+                </a>
+            </div>
+        </div> -->
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="main-row-footer">
+                <div class="group-footer-col-for-responsive">
+                    <div class="first-col-footer">
+                        <img src="./pro-residence-images/image__2___1_-removebg-preview.png" alt="" class="footer-img">
+                        <div class="first-col-footer-row">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>hysenierion8@gmail.com</p>
+                        </div>
+                        <div class="first-col-footer-row">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>045-812-737</p>
+                        </div>
+                        <div class="first-col-footer-row-icons">
+                            <a href="https://www.facebook.com/erion.hyseni.54" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/erion.hyseni.54/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Quick links</h1>
+                        <ul>
+                            <li>
+                                <a href="./properties-catalog/properties-for-sale.html">Buy property</a>
+                            </li>
+                            <li>
+                                <a href="add-property.html">Sell property</a>
+                            </li>
+                            <li>
+                                <a href="./properties-catalog/properties-for-rent.html">Rent property</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Other menu</h1>
+                        <ul>
+                            <li>
+                                <a href="./pages/about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="./account/personal-info.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="./pages/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fourth-col-footer">
+                    <h1>Last review</h1>
+                    <div class="review-by-person-single-product">
+                        <div class="first-row-review-single-product">
+                            <div class="profile-info-review-single-product">
+                                <div class="profile-img-single-product">
+                                    <img src="./pro-residence-images/apartment.jpg" alt="">
+                                </div>
+                                <div class="profile-name-single-product">
+                                    <h1>James Wilson</h1>
+                                    <div class="stars-row-single-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-part-first-row-review-single-product">
+                                <p>Nov 18, 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-content-single-product">
+                            <p>Nje menyre perfekte te arrijme te gjejme qka eshte e mire permes ketij website. Ne kete aplikacion une dhe disa nga te afermit e mi kemi arritur qe te blejme dhe shesim disa nga pronat tona. Faleminderit Pro Residence per kete projekt i cili na ndihmoi shume.
+                            </p>
+                        </div>
+                        <div class="like-review-single-product">
+                            <div class="group-like-review-single-product">
+                                <input type="radio" id="like-review" name="like-dislike" class="like-input-review"
+                                    aria-label="radio-like">
+                                <label for="like-review" class="like-label-review"><i
+                                        class="fa-regular fa-thumbs-up"></i></label>
+                            </div>
+                            <div class="group-like-review-single-product last-group-like-review-single-product">
+                                <input type="radio" id="dislike-review" name="like-dislike" class="dislike-input-review"
+                                    aria-label="radio-like">
+                                <label for="dislike-review" class="dislike-label-review"><i
+                                        class="fa-regular fa-thumbs-down"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="last-row-footer">
+            <h1>@All rights reserved. Made by <strong>Pro Residence</strong></h1>
+        </div>
+    </footer>
+    <script src="indexLogic.js"></script>
+</body>
+
+</html>

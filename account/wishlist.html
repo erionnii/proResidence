@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/00e09253b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PRO Residence</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../pro-residence-images/logo.PNG"
+    />
+  </head>
+
+  <body>
+    <header class="large-devices-header catalog-header">
+      <div class="left-part-header">
+        <a href="../index.html" class="header-logo"
+          ><img
+            src="../pro-residence-images/image__2___1_-removebg-preview.png"
+            alt=""
+        /></a>
+        <ul class="navbar-ul">
+          <li>
+            <a href="../index.html" class="main-menu-link">home</a>
+          </li>
+          <li>
+            <a href="../pages/about.html" class="main-menu-link">About</a>
+          </li>
+          <li>
+            <a
+              href="../properties-catalog/properties-for-sale.html"
+              class="main-menu-link"
+              >Marketplace</a
+            >
+          </li>
+
+          <li>
+            <div class="catalog-menu">
+              <h1 class="main-menu-link main-menu-link-active">
+                profile<i class="fa-solid fa-chevron-down"></i>
+              </h1>
+              <div class="hidden-catalog-menu">
+                <ul>
+                  <li>
+                    <a href="personal-info.html" class="main-menu-link"
+                      >Personal info</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="wishlist.html"
+                      class="main-menu-link main-menu-link-active"
+                      >Wishlist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="my-properties.html" class="main-menu-link"
+                      >My properties</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="../pages/contact.html" class="main-menu-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-part-header">
+        <div class="small-devices-header">
+          <details class="header-details">
+            <summary><i class="fa-solid fa-bars"></i></summary>
+            <div class="all-menu-dropdown">
+              <div class="menu-dropdown-content">
+                <a href="../index.html" class="menu-dropdown" id="home2"
+                  >Home</a
+                >
+              </div>
+              <div class="menu-dropdown-content">
+                <a
+                  href="../properties-catalog/properties-for-sale.html"
+                  class="menu-dropdown"
+                  id="propSale2"
+                  >Marketplace</a
+                >
+              </div>
+              <div class="menu-dropdown input-menu-dropdown">
+                <label
+                  for="profile-menu"
+                  class="label-menu-dropdown flex-menu-dropdown"
+                  >profile<i class="fa-solid fa-chevron-down"></i
+                ></label>
+                <input
+                  type="radio"
+                  name="dropdown-menu-radio"
+                  id="profile-menu"
+                  class="radio-menu-input"
+                />
+                <label
+                  for="profile-menu"
+                  class="menu-dropdown-movement-content second-menu-dropdown-movement-content"
+                >
+                  <div class="x-right-align">
+                    <label for="remove-profile-menu"
+                      ><i class="fa-solid fa-x"></i
+                    ></label>
+                    <input
+                      type="radio"
+                      name="dropdown-menu-radio"
+                      id="remove-profile-menu"
+                      class="radio-menu-input"
+                    />
+                  </div>
+                  <div class="menu-dropdown-movement">
+                    <a
+                      href="./personal-info.html"
+                      class="dropped-menu"
+                      id="personalInfo2"
+                      >Personal info</a
+                    >
+                    <a
+                      href="./wishlist.html"
+                      class="dropped-menu"
+                      id="wishlist2"
+                      >Wishlist</a
+                    >
+                    <a
+                      href="./my-properties.html"
+                      class="dropped-menu"
+                      id="myProperties2"
+                      >My properties</a
+                    >
+                  </div>
+                </label>
+              </div>
+              <div class="menu-dropdown input-menu-dropdown">
+                <label
+                  for="pages-menu"
+                  class="label-menu-dropdown flex-menu-dropdown"
+                  >pages<i class="fa-solid fa-chevron-down"></i
+                ></label>
+                <input
+                  type="radio"
+                  name="dropdown-menu-radio"
+                  id="pages-menu"
+                  class="radio-menu-input"
+                />
+                <label
+                  for="pages-menu"
+                  class="menu-dropdown-movement-content third-menu-dropdown-movement-content"
+                >
+                  <div class="x-right-align">
+                    <label for="remove-pages-menu"
+                      ><i class="fa-solid fa-x"></i
+                    ></label>
+                    <input
+                      type="radio"
+                      name="dropdown-menu-radio"
+                      id="remove-pages-menu"
+                      class="radio-menu-input"
+                    />
+                  </div>
+                  <div class="menu-dropdown-movement">
+                    <a href="../pages/about.html" class="dropped-menu">About</a>
+                    <a href="../pages/contact.html" class="dropped-menu"
+                      >Contact</a
+                    >
+                  </div>
+                </label>
+              </div>
+
+              <div class="menu-dropdown-content" id="signInButtonSmall">
+                <a href="../log-in/sign-in.html" class="menu-dropdown"
+                  >Sign in</a
+                >
+              </div>
+              <div class="addPropertySmallHeader">
+                <a
+                  href="../add-property.html"
+                  class="addPropBtn add-property-button-header"
+                  ><i class="fa-solid fa-plus"></i> Add property</a
+                >
+              </div>
+            </div>
+          </details>
+        </div>
+        <a href="../add-property.html" class="add-property-button-header"
+          ><i class="fa-solid fa-plus"></i> Add property</a
+        >
+        <a
+          href="./log-in/sign-in.html"
+          class="sign-in-button-header"
+          id="signInButtonHeader"
+          ><i class="fa-regular fa-user"></i> Sign in</a
+        >
+        <a
+          href="./personal-info.html"
+          class="profileButtonHeader"
+          id="profileButtonHeader"
+          ><img src="" id="profileImageHeader" alt="" />
+          <p id="userName"></p>
+        </a>
+      </div>
+    </header>
+    <!-- <header class="large-devices-header relative-header catalog-header">
+        <div class="left-part-header">
+            <a href="" class="header-logo"><img src="../pro-residence-images/image__2___1_-removebg-preview.png"
+                    alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">catalog</a>
+                </li>
+                <li>
+                    <a href="">account</a>
+                </li>
+                <li>
+                    <a href="">pages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <a href="" class="sign-in-button-header"><i class="fa-regular fa-user"></i> Sign in</a>
+            <a href="" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add property</a>
+        </div>
+    </header> -->
+    <div class="body-container">
+      <div class="account-body personal-info-body">
+        <div class="left-part-account-body">
+          <div class="first-row-left-part-account">
+            <div class="profile-img-single-product">
+              <img id="profilePhoto" alt="" />
+            </div>
+            <div class="right-part-first-row-left-part-account">
+              <h1 class="seller-name-single-product" id="mainName">
+                Erion Hyseni
+              </h1>
+              <div class="stars-row-single-product">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="contact-info-seller-single-product">
+                <h1 id="mainNumber">
+                  <i class="fa-solid fa-phone"></i> <strong>045-812-737</strong>
+                </h1>
+                <h1>
+                  <i class="fa-regular fa-envelope"></i>
+                  <strong id="mainEmail">hysenierion8@gmail.com</strong>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="center-element-div-single-product">
+            <a
+              href="../add-property.html"
+              class="add-property-button-left-part-account"
+              ><i class="fa-solid fa-plus"></i> Add property</a
+            >
+          </div>
+          <div class="list-left-part-account-div">
+            <ul class="list-left-part-account">
+              <li>
+                <a href="personal-info.html" class="link-left-part-account"
+                  ><i class="fa-regular fa-user"></i> Personal info</a
+                >
+              </li>
+              <li>
+                <a
+                  href="wishlist.html"
+                  class="link-left-part-account active-left-part-account"
+                  ><i class="fa-regular fa-heart"></i> Wishlist</a
+                >
+              </li>
+              <li>
+                <a href="my-properties.html" class="link-left-part-account"
+                  ><i class="fa-solid fa-house"></i> My properties</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-part-account-body">
+          <div class="wishlist-main-title-row">
+            <div class="wishlist-main-title-col">
+              <h1 class="title-right-part-catalog">Wishlist</h1>
+              <span id="wishCount">0</span>
+            </div>
+            <button id="clearAll" class="clear-all-wishlist">
+              <i class="fa-solid fa-x"></i> Clear all
+            </button>
+          </div>
+          <div class="wishlistContent" id="wishlistContent">
+            <div class="noResultImageContainer" id="noResultContainer">
+              <div class="noResultUnderFlex">
+                <img
+                  class="noResultImage"
+                  src="../pro-residence-images/9170826.jpg"
+                  alt=""
+                />
+                <h2>No property liked</h2>
+                <p>Like any property to save here!</p>
+              </div>
+            </div>
+
+            <!-- 
+                    <a href="../properties-catalog/single-product-file.html"
+                        class="fourth-part-home-card wishlist-card">
+                        <div class="top-part-card-fourth-part-home top-part-card-wishlist">
+                            <img class="card-image-fourth-part-home card-image-wishlist"
+                                src="../pro-residence-images/apartment1.webp" alt="">
+                            <div class="elements-in-card-image-fourth-part-home elements-in-card-image-wishlist">
+                                <div class="left-part">
+                                    <h2 class="verified-element">verified</h2>
+                                    <h2 class="new-element">New</h2>
+                                </div>
+                                <div class="right-part">
+                                    <label for="" class="main-like"><i class="fa-regular fa-heart"></i></label>
+                                    <input type="checkbox" checked id="first-like-row-single-product"
+                                        class="checkbox-like" aria-label="check">
+                                    <label for="first-like-row-single-product" class="heart"><i
+                                            class="fa-solid fa-heart "></i></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-part-card-fourth-part-home bottom-part-card-wishlist">
+                            <div class="text-part-card-fourth-part-home">
+                                <h3>For sale</h3>
+                                <h1>Mason House | 120 sq.m</h1>
+                                <p>At Zef Pellumbi, Tirana</p>
+                                <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                                <span>$198.699</span>
+                            </div>
+                            <div class="icons-part-card-fourth-part-home">
+                                <div class="icon-group">
+                                    <span>3</span>
+                                    <i class="fa-solid fa-bed"></i>
+                                </div>
+                                <div class="icon-group">
+                                    <span>4</span>
+                                    <i class="fa-solid fa-bath"></i>
+                                </div>
+                                <div class="icon-group">
+                                    <span>2</span>
+                                    <i class="fa-solid fa-car"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a> -->
+
+            <!-- <a href="../properties-catalog/single-product-file.html" class="fourth-part-home-card wishlist-card">
+                    <div class="top-part-card-fourth-part-home top-part-card-wishlist">
+                        <img class="card-image-fourth-part-home card-image-wishlist" src="../pro-residence-images/apartment2.jpg" alt="">
+                        <div class="elements-in-card-image-fourth-part-home elements-in-card-image-wishlist">
+                            <div class="left-part">
+                                <h2 class="verified-element">verified</h2>
+                                <h2 class="new-element">New</h2>
+                            </div>
+                            <div class="right-part">
+                                <label for="" class="main-like"><i class="fa-regular fa-heart"></i></label>
+                                <input type="checkbox" checked id="second-like-row-single-product" class="checkbox-like" aria-label="check">
+                                <label for="second-like-row-single-product" class="heart"><i class="fa-solid fa-heart "></i></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-part-card-fourth-part-home bottom-part-card-wishlist">
+                        <div class="text-part-card-fourth-part-home">
+                            <h3>For sale</h3>
+                            <h1>3-bed apartment | 98 sq.m</h1>
+                            <p>Kodra e Trimave, Pristina</p>
+                            <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                            <span>$190.500</span>
+                        </div>
+                        <div class="icons-part-card-fourth-part-home">
+                            <div class="icon-group">
+                                <span>3</span>
+                                <i class="fa-solid fa-bed"></i>
+                            </div>
+                            <div class="icon-group">
+                                <span>2</span>
+                                <i class="fa-solid fa-bath"></i>
+                            </div>
+                            <div class="icon-group">
+                                <span>2</span>
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="../properties-catalog/single-product-file.html" class="fourth-part-home-card wishlist-card">
+                    <div class="top-part-card-fourth-part-home top-part-card-wishlist">
+                        <img class="card-image-fourth-part-home card-image-wishlist" src="../pro-residence-images/apartment3.jpg" alt="">
+                        <div class="elements-in-card-image-fourth-part-home elements-in-card-image-wishlist">
+                            <div class="left-part">
+                                <h2 class="verified-element">verified</h2>
+                                <h2 class="new-element">New</h2>
+                            </div>
+                            <div class="right-part">
+                                <label for="" class="main-like"><i class="fa-regular fa-heart"></i></label>
+                                <input type="checkbox" checked id="third-like-row-single-product" class="checkbox-like" aria-label="check">
+                                <label for="third-like-row-single-product" class="heart"><i class="fa-solid fa-heart "></i></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-part-card-fourth-part-home bottom-part-card-wishlist">
+                        <div class="text-part-card-fourth-part-home">
+                            <h3>For sale</h3>
+                            <h1>Dark grey apartment | 95 sq.m</h1>
+                            <p>Zarka Obreski, Belgrade</p>
+                            <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                            <span>$109.999</span>
+                        </div>
+                        <div class="icons-part-card-fourth-part-home">
+                            <div class="icon-group">
+                                <span>3</span>
+                                <i class="fa-solid fa-bed"></i>
+                            </div>
+                            <div class="icon-group">
+                                <span>2</span>
+                                <i class="fa-solid fa-bath"></i>
+                            </div>
+                            <div class="icon-group">
+                                <span>2</span>
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="main-row-footer">
+          <div class="group-footer-col-for-responsive">
+            <div class="first-col-footer">
+              <img
+                src="../pro-residence-images/image__2___1_-removebg-preview.png"
+                alt=""
+                class="footer-img"
+              />
+              <div class="first-col-footer-row">
+                <i class="fa-regular fa-envelope"></i>
+                <p>hysenierion8@gmail.com</p>
+              </div>
+              <div class="first-col-footer-row">
+                <i class="fa-solid fa-phone"></i>
+                <p>045-812-737</p>
+              </div>
+              <div class="first-col-footer-row-icons">
+                <a
+                  href="https://www.facebook.com/erion.hyseni.54"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/erion.hyseni.54/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="second-col-footer">
+              <h1>Quick links</h1>
+              <ul>
+                <li>
+                  <a href="../properties-catalog/properties-for-sale.html"
+                    >Buy property</a
+                  >
+                </li>
+                <li>
+                  <a href="../add-property.html">Sell property</a>
+                </li>
+                <li>
+                  <a href="../properties-catalog/properties-for-rent.html"
+                    >Rent property</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="second-col-footer">
+              <h1>Other menu</h1>
+              <ul>
+                <li>
+                  <a href="../pages/about.html">About us</a>
+                </li>
+                <li>
+                  <a href="personal-info.html">Profile</a>
+                </li>
+                <li>
+                  <a href="../pages/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fourth-col-footer">
+            <h1>Last review</h1>
+            <div class="review-by-person-single-product">
+              <div class="first-row-review-single-product">
+                <div class="profile-info-review-single-product">
+                  <div class="profile-img-single-product">
+                    <img src="../pro-residence-images/apartment.jpg" alt="" />
+                  </div>
+                  <div class="profile-name-single-product">
+                    <h1>Arben Hyseni</h1>
+                    <div class="stars-row-single-product">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-part-first-row-review-single-product">
+                  <p>Nov 15, 2023</p>
+                </div>
+              </div>
+              <div class="review-content-single-product">
+                <p>
+                  Nje menyre perfekte te arrijme te gjejme qka eshte e mire
+                  permes ketij website. Ne kete aplikacion une dhe disa nga te
+                  afermit e mi kemi arritur qe te blejme dhe shesim disa nga
+                  pronat tona. Faleminderit Pro Residence per kete projekt i
+                  cili na ndihmoi shume.
+                </p>
+              </div>
+              <div class="like-review-single-product">
+                <div class="group-like-review-single-product">
+                  <input
+                    type="radio"
+                    id="like-review"
+                    name="like-dislike"
+                    class="like-input-review"
+                    aria-label="radio-like"
+                  />
+                  <label for="like-review" class="like-label-review"
+                    ><i class="fa-regular fa-thumbs-up"></i
+                  ></label>
+                </div>
+                <div
+                  class="group-like-review-single-product last-group-like-review-single-product"
+                >
+                  <input
+                    type="radio"
+                    id="dislike-review"
+                    name="like-dislike"
+                    class="dislike-input-review"
+                    aria-label="radio-like"
+                  />
+                  <label for="dislike-review" class="dislike-label-review"
+                    ><i class="fa-regular fa-thumbs-down"></i
+                  ></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last-row-footer">
+        <h1>@All rights reserved. Made by <strong>Pro Residence</strong></h1>
+      </div>
+    </footer>
+    <script src="wishlistLogic.js"></script>
+  </body>
+</html>

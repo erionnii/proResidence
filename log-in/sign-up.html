@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+    <title>PRO Residence</title>
+    <link rel="icon" type="image/x-icon" href="../pro-residence-images/logo.PNG">
+</head>
+<body>
+    <div class="sign-in-container">
+        <div class="sign-in-content">
+            <div class="left-part-sign-in">
+                <a href="../index.html" class="left-part-remove-page remove-page"><i class="fa-solid fa-x"></i></a>
+                <h1>Join Pro Residence!</h1>
+                <h1>And get some benefits</h1>
+                <ul class="left-part-sign-up-ul">
+                    <li><i class="fa-regular fa-circle-check"></i>Add your listings</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Manage your wishlist</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Leave comments</li>
+                </ul>
+                <div class="image-sign-in">
+                    <img src="../pro-residence-images/6333050.jpg" alt="">
+                </div>
+                <p>Already have an account? <a href="sign-in.html" class="sign-in-link">Sign in</a></p>
+            </div>
+            <div class="right-part-sign-in">
+                <a href="../index.html" class="right-part-remove-page remove-page"><i class="fa-solid fa-x"></i></a>
+                <div class="middle-or-word">
+                    <div class="addPhotoAll addPhotoAllProfile">
+                        <label for="add-photo" class="add-photo-label">
+                            <img
+                    src="../pro-residence-images/useri-removebg-preview.png" id="profilePhoto" alt="">
+                        </label>
+                        <input type="file" id="add-photo" class="add-photo-input" aria-label="file">
+                        <div class="containerImg" id="containerImg"></div>
+                    </div>
+                </div>
+                <form action="" id="signUpForm" class="sign-in-form">
+                    <label for="full-name-sign-up">Full name <span>*</span></label>
+                    <input type="text" id="full-name-sign-up" placeholder="Enter full name" >
+
+                    <label for="sign-up-email">Email address <span>*</span></label>
+                    <input type="email" id="sign-up-email" placeholder="Enter your email" >
+
+                    <label for="phoneNumberSignUp">Phone number</label>
+                    <input type="number" id="phoneNumberSignUp" placeholder="Enter your phone number" >
+
+                    <label for="companyNameSignUp">Company name</label>
+                    <input type="text" id="companyNameSignUp" placeholder="Company name" >
+
+                    <label for="addressSignUp">Street address</label>
+                    <input type="text" id="addressSignUp" placeholder="Street address" >
+
+                    <label for="sign-up-password">Password <span>*</span></label>
+                    <input type="password" id="sign-up-password"  placeholder="Enter a password" >
+
+                    <label for="sign-up-confirm-password">Confirm password <span>*</span></label>
+                    <input type="password" id="sign-up-confirm-password" placeholder="Confirm Password" >
+                    <div class="input-label-row">
+                        <input type="checkbox" name="" id="agree-sign-up">
+                    <label for="agree-sign-up" class="inline-label-sign-in">By joining, I agree to the <a href="" class="sign-in-link">Terms of use</a> and <a href="" class="sign-in-link">Privacy policy.</a></label>
+                    </div>
+                    <p class="errorInfo" id="errorInfo"></p>
+                    <input type="submit" value="Sign Up" class="submit-button" id="submit-sign-in">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="signUpLogic.js"></script>
+</body>
+
+</html>

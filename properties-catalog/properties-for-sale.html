@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+    <title>PRO Residence</title>
+    <link rel="icon" type="image/x-icon" href="../pro-residence-images/logo.PNG">
+</head>
+
+<body>
+    <header class="large-devices-header catalog-header">
+        <div class="left-part-header">
+            <a href="../index.html" class="header-logo"><img
+                    src="../pro-residence-images/image__2___1_-removebg-preview.png" alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="../index.html" class="main-menu-link">home</a>
+                </li>
+                <li>
+                    <a href="../pages/about.html" class="main-menu-link">About</a>
+                </li>
+                <li>
+                    <a href="properties-for-sale.html"
+                        class="main-menu-link main-menu-link-active">Marketplace</a>
+                </li>
+                
+                <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">profile<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="../account/personal-info.html" class="main-menu-link">Personal info</a>
+                                </li>
+                                <li>
+                                    <a href="../account/wishlist.html" class="main-menu-link">Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="../account/my-properties.html" class="main-menu-link">My properties</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="../pages/contact.html" class="main-menu-link">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <div class="small-devices-header">
+                <details class="header-details">
+                    <summary><i class="fa-solid fa-bars"></i></summary>
+                    <div class="all-menu-dropdown">
+                        <div class="menu-dropdown-content">
+                            <a href="../index.html" class="menu-dropdown" id="home2">Home</a>
+                        </div>
+                        <div class="menu-dropdown-content">
+                            <a href="./properties-for-sale.html" class="menu-dropdown" id="propSale2">Marketplace</a>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="profile-menu" class="label-menu-dropdown flex-menu-dropdown">profile<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="profile-menu" class="radio-menu-input">
+                            <label for="profile-menu"
+                                class="menu-dropdown-movement-content second-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-profile-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-profile-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="../account/personal-info.html" class="dropped-menu"
+                                        id="personalInfo2">Personal info</a>
+                                    <a href="../account/wishlist.html" class="dropped-menu" id="wishlist2">Wishlist</a>
+                                    <a href="../account/my-properties.html" class="dropped-menu" id="myProperties2">My
+                                        properties</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="pages-menu" class="label-menu-dropdown flex-menu-dropdown">pages<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="pages-menu" class="radio-menu-input">
+                            <label for="pages-menu"
+                                class="menu-dropdown-movement-content third-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-pages-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-pages-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="../pages/about.html" class="dropped-menu">About</a>
+                                    <a href="../pages/contact.html" class="dropped-menu">Contact</a>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="menu-dropdown-content" id="signInButtonSmall">
+                            <a href="../log-in/sign-in.html" class="menu-dropdown">Sign in</a>
+                        </div>
+                        <div class="addPropertySmallHeader">
+                            <a href="../add-property.html" class="addPropBtn add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                                property</a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <a href="../add-property.html" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                property</a>
+            <a href="./log-in/sign-in.html" class="sign-in-button-header" id="signInButtonHeader"><i
+                    class="fa-regular fa-user"></i>
+                Sign in</a>
+            <a href="../account/personal-info.html" class="profileButtonHeader" id="profileButtonHeader"><img
+                src="" id="profileImageHeader" alt="">
+                <p id="userName"></p>
+                </p>
+            </a>
+        </div>
+    </header>
+    <!-- <header class="large-devices-header relative-header catalog-header">
+        <div class="left-part-header">
+            <a href="" class="header-logo"><img src="../pro-residence-images/image__2___1_-removebg-preview.png"
+                    alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">catalog</a>
+                </li>
+                <li>
+                    <a href="">account</a>
+                </li>
+                <li>
+                    <a href="">pages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <a href="" class="sign-in-button-header"><i class="fa-regular fa-user"></i> Sign in</a>
+            <a href="" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add property</a>
+        </div>
+    </header> -->
+    <div class="catalog-container">
+        <label for="filter-input" class="click-see-filters"><i class="fa-solid fa-filter"></i> filters</label>
+        <input type="radio" name="filter-input" id="filter-input" class="input-click-see-filters">
+        <label for="filter-input" class="all-filters">
+            <div class="left-part-catalog">
+                <div class="flex-head-filter">
+                    <h1>Filters</h1>
+                    <label for="click-hide-filters"><i class="fa-solid fa-x"></i></label>
+                    <input type="radio" name="filter-input" class="click-hide-filter-input" id="click-hide-filters">
+                </div>
+                <div class="group-informations-add-property">
+                    <div class="flex-main-link-filter">
+                        <button class="flex-input-property-main-link"  id="forRent"><i
+                                class="fa-solid fa-bed"></i>For rent</button>
+                        <button
+                            class="flex-input-property-main-link" id="forSale"><i
+                                class="fa-brands fa-sellsy"></i>For sale</button>
+                    </div>
+                </div>
+                <form action="" id="filterForSale" class="add-property-form">
+
+                    
+                    <div class="group-informations-add-property">
+                        <h5 class="question-group-add-property">Location</h5>
+                        <select name="locationFilter" id="select-category-add-property" aria-label="search">
+                            <option value="Kosovo">Kosovo</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Macedonia">Macedonia</option>
+                            <option value="Serbia">Serbia</option>
+                            <option value="Montenegro">Montenegro</option>
+                        </select>
+                        <input type="text" placeholder="Enter city" id="enterCityInputSell">
+                        <input type="text" placeholder="Enter district" id="enterDistrictInputSell">
+                        <h5 class="question-group-add-property">Property type</h5>
+                        <div class="checkboxes-container-catalog">
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="house-sell" checked>
+                                <label for="house-sell">Home</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="apartment-sell" checked>
+                                <label for="apartment-sell">Apartment</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="room-sell">
+                                <label for="room-sell">Room</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="office-sell">
+                                <label for="office-sell">Office</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="daily-sell" checked>
+                                <label for="daily-sell">Daily rental</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="commercial-sell">
+                                <label for="commercial-sell">Commercial</label>
+                            </div>
+                        </div>
+                        <h5 class="question-group-add-property">Price</h5>
+                        <div class="catalog-flex-price">
+                            <div class="catalog-flex-price-group">
+                                <h1 class="price-sign">$</h1>
+                                <input type="number" placeholder="min" id="minValueInputSell">
+                            </div>
+                            <div class="catalog-flex-price-group">
+                                <h1 class="price-sign">$</h1>
+                                <input type="number" placeholder="max" id="maxValueInputSell">
+                            </div>
+                        </div>
+                        <h5 class="question-group-add-property">Beds & baths</h5>
+                        <h4 class="under-title-group-add-property">Bedrooms</h4>
+                        <div class="row-buttons-add-property">
+                            <input type="radio" name="click-property-bedroom-add-property"
+                                class="property-detail-add-product-input" id="none-bedroom-add-property">
+                            <label for="none-bedroom-add-property" class="property-detail-add-product-label">-</label>
+                            <input type="radio" name="click-property-bedroom-add-property"
+                                class="property-detail-add-product-input" id="one-bedroom-add-property">
+                            <label for="one-bedroom-add-property" class="property-detail-add-product-label">1</label>
+                            <input type="radio" name="click-property-bedroom-add-property"
+                                class="property-detail-add-product-input" id="two-bedroom-add-property">
+                            <label for="two-bedroom-add-property" class="property-detail-add-product-label">2</label>
+                            <input type="radio" name="click-property-bedroom-add-property"
+                                class="property-detail-add-product-input" id="three-bedroom-add-property">
+                            <label for="three-bedroom-add-property" class="property-detail-add-product-label">3</label>
+                            <input type="radio" name="click-property-bedroom-add-property"
+                                class="property-detail-add-product-input" id="four-bedroom-add-property">
+                            <label for="four-bedroom-add-property" class="property-detail-add-product-label">4</label>
+                            <input type="radio" name="click-property-bedroom-add-property"
+                                class="property-detail-add-product-input" id="five-bedroom-add-property">
+                            <label for="five-bedroom-add-property" class="property-detail-add-product-label">5+</label>
+                        </div>
+                        <h4 class="under-title-group-add-property">Baths</h4>
+                        <div class="row-buttons-add-property">
+                            <input type="radio" name="click-property-bathroom-add-property"
+                                class="property-detail-add-product-input" id="none-bathroom-add-property">
+                            <label for="none-bathroom-add-property" class="property-detail-add-product-label">-</label>
+                            <input type="radio" name="click-property-bathroom-add-property"
+                                class="property-detail-add-product-input" id="one-bathroom-add-property">
+                            <label for="one-bathroom-add-property" class="property-detail-add-product-label">1</label>
+                            <input type="radio" name="click-property-bathroom-add-property"
+                                class="property-detail-add-product-input" id="two-bathroom-add-property">
+                            <label for="two-bathroom-add-property" class="property-detail-add-product-label">2</label>
+                            <input type="radio" name="click-property-bathroom-add-property"
+                                class="property-detail-add-product-input" id="three-bathroom-add-property">
+                            <label for="three-bathroom-add-property" class="property-detail-add-product-label">3</label>
+                            <input type="radio" name="click-property-bathroom-add-property"
+                                class="property-detail-add-product-input" id="four-bathroom-add-property">
+                            <label for="four-bathroom-add-property" class="property-detail-add-product-label">4+</label>
+                        </div>
+                        <h5 class="question-group-add-property">Square metres</h5>
+                        <div class="catalog-flex-price">
+                            <input type="number" placeholder="min" id="minMetresInput"
+                                class="special-input-catalog-flex-price">
+                            <input type="number" placeholder="max" id="maxMetresInput"
+                                class="special-input-catalog-flex-price">
+                        </div>
+                        <h5 class="question-group-add-property">Amenities</h5>
+                        <div class="checkboxes-container-catalog">
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="wifi-check" checked>
+                                <label for="wifi-check">WiFi</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="air-condition-check" checked>
+                                <label for="air-condition-check">Air conditioning</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="balcony-check" checked>
+                                <label for="balcony-check">Balcony</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="garage-check">
+                                <label for="garage-check">Garage</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="gym-check">
+                                <label for="gym-check">Gym</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="parking-check" checked>
+                                <label for="parking-check">Parking</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="pool-check">
+                                <label for="pool-check">Pool</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="tv-check" checked>
+                                <label for="tv-check">TV</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="heating-check">
+                                <label for="heating-check">Heating</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="dishwasher-check">
+                                <label for="dishwasher-check">Dishwasher</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="kitchen-check" checked>
+                                <label for="kitchen-check">Kitchen</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="security-check" checked>
+                                <label for="security-check">Security cameras</label>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="center-element-div">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="center-element-div">
+                        <input type="reset" id="resetButton" value="Reset filters">
+                    </div>
+                </form>
+            </div>
+            <div class="right-part-catalog-label"></div>
+        </label>
+        <div class="right-part-catalog">
+            <h1 class="title-right-part-catalog">Property for sale</h1>
+            <div class="top-details-catalog">
+                <div class="left-part">
+                    <h1><i class="fa-solid fa-arrow-up-wide-short"></i> Sort by:</h1>
+                    <select name="sortType" id="sortType" aria-label="search">
+                        <option value="oldest">Oldest</option>
+                        <option value="newest">Newest</option>
+                        <option value="lowestPrice">Lowest price</option>
+                        <option value="highestPrice">Highest price</option>
+                    </select>
+                </div>
+                <div class="right-part">
+                    <h1 id="results"><i class="fa-regular fa-circle-check"></i> </h1>
+                </div>
+            </div>
+            <div class="noResultImageContainer" id="noResultContainer">
+                <div class="noResultUnderFlex">
+                    <img class="noResultImage" src="../pro-residence-images/9170826.jpg" alt="">
+                <h2 id="propertiesStateHeading">No properties posted!</h2>
+                <p id="propertiesStateParagraph">Be the first one to add a property.</p>
+                </div>
+            </div> 
+            <div class="card-catalog-row" id="cardCatalogRow">
+                
+            </div>
+           
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="main-row-footer">
+                <div class="group-footer-col-for-responsive">
+                    <div class="first-col-footer">
+                        <img src="../pro-residence-images/image__2___1_-removebg-preview.png" alt="" class="footer-img">
+                        <div class="first-col-footer-row">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>hysenierion8@gmail.com</p>
+                        </div>
+                        <div class="first-col-footer-row">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>045-812-737</p>
+                        </div>
+                        <div class="first-col-footer-row-icons">
+                            <a href="https://www.facebook.com/erion.hyseni.54" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/erion.hyseni.54/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Quick links</h1>
+                        <ul>
+                            <li>
+                                <a href="properties-for-sale.html">Buy property</a>
+                            </li>
+                            <li>
+                                <a href="../add-property.html">Sell property</a>
+                            </li>
+                            <li>
+                                <a href="properties-for-rent.html">Rent property</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Other menu</h1>
+                        <ul>
+                            <li>
+                                <a href="../pages/about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="../account/personal-info.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="../pages/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fourth-col-footer">
+                    <h1>Last review</h1>
+                    <div class="review-by-person-single-product">
+                        <div class="first-row-review-single-product">
+                            <div class="profile-info-review-single-product">
+                                <div class="profile-img-single-product">
+                                    <img src="../pro-residence-images/apartment.jpg" alt="">
+                                </div>
+                                <div class="profile-name-single-product">
+                                    <h1>James Wilson</h1>
+                                    <div class="stars-row-single-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-part-first-row-review-single-product">
+                                <p>Nov 18, 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-content-single-product">
+                            <p>Nje menyre perfekte te arrijme te gjejme qka eshte e mire permes ketij website. Ne kete aplikacion une dhe disa nga te afermit e mi kemi arritur qe te blejme dhe shesim disa nga pronat tona. Faleminderit Pro Residence per kete projekt i cili na ndihmoi shume.
+                            </p>
+                        </div>
+                        <div class="like-review-single-product">
+                            <div class="group-like-review-single-product">
+                                <input type="radio" id="like-review" name="like-dislike" class="like-input-review"
+                                    aria-label="radio-like">
+                                <label for="like-review" class="like-label-review"><i
+                                        class="fa-regular fa-thumbs-up"></i></label>
+                            </div>
+                            <div class="group-like-review-single-product last-group-like-review-single-product">
+                                <input type="radio" id="dislike-review" name="like-dislike" class="dislike-input-review"
+                                    aria-label="radio-like">
+                                <label for="dislike-review" class="dislike-label-review"><i
+                                        class="fa-regular fa-thumbs-down"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="last-row-footer">
+            <h1>@All rights reserved. Made by <strong>Pro Residence</strong></h1>
+        </div>
+    </footer>
+    <script src="propertiesForSaleLogic.js"></script>
+</body>
+
+</html>

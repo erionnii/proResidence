@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+    <title>PRO Residence</title>
+    <link rel="icon" type="image/x-icon" href="../pro-residence-images/logo.PNG">
+</head>
+<body>
+    <div class="sign-in-container">
+        <div class="sign-in-content">
+            <div class="left-part-sign-in">
+                <a href="../index.html" class="left-part-remove-page remove-page"><i class="fa-solid fa-x"></i></a>
+                <h1>Hey there!</h1>
+                <h1>Welcome back.</h1>
+                <div class="image-sign-in">
+                    <img src="../pro-residence-images/online-registration-illustration-design-concept-websites-landing-pages-other_108061-938.webp" alt="">
+                </div>
+                <p>Don't have an account? <a href="sign-up.html" class="sign-in-link">Sign up here</a></p>
+            </div>
+            <div class="right-part-sign-in">
+                <a href="../index.html" class="right-part-remove-page remove-page"><i class="fa-solid fa-x"></i></a>
+                <a href="" class="sign-up-method">
+                    <img src="../pro-residence-images/google-logo.png" alt="">
+                    Sign in with Google
+                </a>
+                <a href="" class="sign-up-method">
+                    <img src="../pro-residence-images/facebook-f-logo-transparent-facebook-f-22.png" alt="">
+                    Sign in with Facebook
+                </a>
+                <div class="middle-or-word">
+                    <h2>Or</h2>
+                </div>
+                <form action="" id="logInForm" class="sign-in-form">
+                    <label for="signInEmail">Email address</label>
+                    <input type="email" id="signInEmail" placeholder="Enter your email" >
+                    <div class="password-label-row">
+                        <label for="signInPassword">Password</label>
+                        <a href="" class="forgot-password">Forgot password?</a>
+                    </div>
+                    <input type="password" id="signInPassword" placeholder="Enter password"  >
+                    <p class="errorInfo" id="errorInfo"></p>
+                    <input type="submit" value="Sign In" class="submit-button" id="submit-sign-in">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="signInLogic.js"></script>
+</body>
+
+</html>

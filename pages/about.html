@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <script src="https://kit.fontawesome.com/00e09253b1.js" crossorigin="anonymous"></script>
+        <title>PRO Residence</title>
+        <link rel="icon" type="image/x-icon" href="../pro-residence-images/logo.PNG">
+    </head>
+<body>
+    <header class="large-devices-header catalog-header">
+        <div class="left-part-header">
+            <a href="../index.html" class="header-logo"><img
+                    src="../pro-residence-images/image__2___1_-removebg-preview.png" alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="../index.html" class="main-menu-link">home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="main-menu-link main-menu-link-active">About</a>
+                </li>
+                <li>
+                    <a href="../properties-catalog/properties-for-sale.html" class="main-menu-link" id="propSaleAbout">Marketplace</a>
+                </li>
+                <li>
+                    <div class="catalog-menu">
+                        <h1 class="main-menu-link">profile<i class="fa-solid fa-chevron-down"></i></h1>
+                        <div class="hidden-catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="../account/personal-info.html" class="main-menu-link" id="personalInfoAbout">Personal info</a>
+                                </li>
+                                <li>
+                                    <a href="../account/wishlist.html" class="main-menu-link" id="wishlistAbout">Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="../account/my-properties.html" class="main-menu-link" id="myPropertiesAbout">My properties</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="contact.html" class="main-menu-link">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <div class="small-devices-header">
+                <details class="header-details">
+                    <summary><i class="fa-solid fa-bars"></i></summary>
+                    <div class="all-menu-dropdown">
+                        <div class="menu-dropdown-content">
+                            <a href="../index.html" class="menu-dropdown" id="home2">Home</a>
+                        </div>
+                        <div class="menu-dropdown-content">
+                            <a href="../properties-catalog/properties-for-sale.html" class="menu-dropdown" id="propSale2">Marketplace</a>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="profile-menu" class="label-menu-dropdown flex-menu-dropdown">profile<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="profile-menu" class="radio-menu-input">
+                            <label for="profile-menu"
+                                class="menu-dropdown-movement-content second-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-profile-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-profile-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="../account/personal-info.html" class="dropped-menu"
+                                        id="personalInfo2">Personal info</a>
+                                    <a href="../account/wishlist.html" class="dropped-menu" id="wishlist2">Wishlist</a>
+                                    <a href="../account/my-properties.html" class="dropped-menu" id="myProperties2">My
+                                        properties</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-dropdown input-menu-dropdown">
+                            <label for="pages-menu" class="label-menu-dropdown flex-menu-dropdown">pages<i
+                                    class="fa-solid fa-chevron-down"></i></label>
+                            <input type="radio" name="dropdown-menu-radio" id="pages-menu" class="radio-menu-input">
+                            <label for="pages-menu"
+                                class="menu-dropdown-movement-content third-menu-dropdown-movement-content">
+                                <div class="x-right-align">
+                                    <label for="remove-pages-menu"><i class="fa-solid fa-x"></i></label>
+                                    <input type="radio" name="dropdown-menu-radio" id="remove-pages-menu"
+                                        class="radio-menu-input">
+                                </div>
+                                <div class="menu-dropdown-movement">
+                                    <a href="./about.html" class="dropped-menu">About</a>
+                                    <a href="./contact.html" class="dropped-menu">Contact</a>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="menu-dropdown-content" id="signInButtonSmall">
+                            <a href="../log-in/sign-in.html" class="menu-dropdown">Sign in</a>
+                        </div>
+                        <div class="addPropertySmallHeader">
+                            <a href="../add-property.html" class="addPropBtn add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                                property</a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <a href="../add-property.html" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add
+                property</a>
+            <a href="./log-in/sign-in.html" class="sign-in-button-header" id="signInButtonHeader"><i class="fa-regular fa-user"></i>
+                Sign in</a>
+            <a href="../account/personal-info.html" class="profileButtonHeader" id="profileButtonHeader"><img
+                    src="../pro-residence-images/useri-removebg-preview.png" id="profileImageHeader" alt="">
+                            <p id="userName"></p>
+</p>
+            </a>
+        </div>
+    </header>
+    <!-- <header class="large-devices-header relative-header catalog-header">
+        <div class="left-part-header">
+            <a href="" class="header-logo"><img src="../pro-residence-images/image__2___1_-removebg-preview.png"
+                    alt=""></a>
+            <ul class="navbar-ul">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">catalog</a>
+                </li>
+                <li>
+                    <a href="">account</a>
+                </li>
+                <li>
+                    <a href="">pages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-part-header">
+            <a href="" class="sign-in-button-header"><i class="fa-regular fa-user"></i> Sign in</a>
+            <a href="" class="add-property-button-header"><i class="fa-solid fa-plus"></i> Add property</a>
+        </div>
+    </header> -->
+    <div class="body-container">
+        <div class="first-part-about">
+            <div class="left-first-part-about">
+                <h1>About Pro Residence</h1>
+                <p>We are company which offer services for sale, purchase or rental of real estate. Here you can search many properties that you may like. For promote or something else you can contact us too! 24/7 only for you</p>
+                <a href="contact.html" class="first-part-about-button">Contact us</a>
+            </div>
+            <div class="right-first-part-about">
+            </div>
+        </div>
+        <div class="second-part-about">
+            <h1 class="title-right-part-catalog">Why choose us?</h1>
+            <div class="second-part-about-row">
+                <div class="second-part-about-col">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <h1 class="second-part-about-col-title">100% safe in sell and buy</h1>
+                    <p class="second-part-about-col-description">Pro Residence is the best place to buy, sell or rental a real estate because we made the safest way to do it. 80K+ customers believed us and they are happy now with our work.</p>
+                </div>
+                <div class="second-part-about-col">
+                    <i class="fa-solid fa-building-user"></i>
+                    <h1 class="second-part-about-col-title">Too many properties</h1>
+                    <p class="second-part-about-col-description">If you are interestedto buy or rental e real estate is big step in your life but you do not know which property to choose, in the Pro Residence you can find too many different properties, so you can search for properties , have a look and buy it.</p>
+                </div>
+                <div class="second-part-about-col">
+                    <i class="fa-solid fa-users-gear"></i>
+                    <h1 class="second-part-about-col-title">Support 24/7</h1>
+                    <p class="second-part-about-col-description">As we said early, if you want something from us you can contact us and we are online 24/7 only for our costumers. Contact center is active and is waiting for your request for something, so if you want to ask something, go to contact page and do it.</p>
+                </div>
+            </div>
+        </div>
+        <div class="third-part-about">
+            <div class="left-third-part-about">
+                <img src="../pro-residence-images/p5-bg1.png" alt="">
+            </div>
+            <div class="right-third-part-about">
+            <h1 class="title-right-part-catalog">How to use our services?</h1>
+                <div class="right-third-part-about-group">
+                    <div class="left-col">
+                        <h1>1</h1>
+                    </div>
+                    <div class="right-col">
+                        <h1 class="second-part-about-col-title">Choose your property</h1>
+                        <p class="second-part-about-col-description">Firstly choose your property which you want to buy or rent it. Edit filters to make it easier or search it randomly, find the best property for ypu, contact the seller and enjoy your new property after the deal! This is what we made for you.</p>
+                    </div>
+                </div>
+                <div class="right-third-part-about-group">
+                    <div class="left-col">
+                        <h1>2</h1>
+                    </div>
+                    <div class="right-col">
+                        <h1 class="second-part-about-col-title">Sell or rent any property</h1>
+                        <p class="second-part-about-col-description">Firstly take photos of your property, prepare your documents to sell it, write all informations at "add property" menu, set the best price for you and for customers, describe it in the best way and be ready to contact with interested customers for your property.</p>
+                    </div>
+                </div>
+                <div class="right-third-part-about-group">
+                    <div class="left-col">
+                        <h1>3</h1>
+                    </div>
+                    <div class="right-col">
+                        <h1 class="second-part-about-col-title">Promote your property</h1>
+                        <p class="second-part-about-col-description">Promoting your property to sell is the best way to realize it, of course we can offer this. By promoting your property at Pro Residence you will get some benefits: the first one is your post can see more people, the second one is your customers will contact with our agents.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fourth-part-about">
+            <div class="left-fourth-part-about">
+                <h1 class="title-right-part-catalog">Buy the best for you.</h1>
+                <h1 class="title-right-part-catalog">Sell the best for others.</h1>
+                <p class="second-part-about-col-description">Be the best trader depending in two things: Buy the best for you and sell the best for others. This is our best message to learn to traders just to have the good relationship between seller-buyer. So if you are buyer you can find here very good sellers who think for you too, do not wait and find the best property you want for yourself. </p>
+                <a href="../properties-catalog/properties-for-sale.html" class="first-part-about-button"><i class="fa-solid fa-magnifying-glass"></i> Find property</a>
+            </div>
+            <div class="right-fourth-part-about">
+                <img src="../pro-residence-images/ytu-03-640x428-removebg-preview (1).png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="main-row-footer">
+                <div class="group-footer-col-for-responsive">
+                    <div class="first-col-footer">
+                        <img src="../pro-residence-images/image__2___1_-removebg-preview.png" alt="" class="footer-img">
+                        <div class="first-col-footer-row">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>hysenierion8@gmail.com</p>
+                        </div>
+                        <div class="first-col-footer-row">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>045-812-737</p>
+                        </div>
+                        <div class="first-col-footer-row-icons">
+                            <a href="https://www.facebook.com/erion.hyseni.54" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/erion.hyseni.54/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Quick links</h1>
+                        <ul>
+                            <li>
+                                <a href="../properties-catalog/properties-for-sale.html">Buy property</a>
+                            </li>
+                            <li>
+                                <a href="../add-property.html">Sell property</a>
+                            </li>
+                            <li>
+                                <a href="../properties-catalog/properties-for-rent.html">Rent property</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second-col-footer">
+                        <h1>Other menu</h1>
+                        <ul>
+                            <li>
+                                <a href="about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="../account/personal-info.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fourth-col-footer">
+                    <h1>Last review</h1>
+                    <div class="review-by-person-single-product">
+                        <div class="first-row-review-single-product">
+                            <div class="profile-info-review-single-product">
+                                <div class="profile-img-single-product">
+                                    <img src="../pro-residence-images/apartment.jpg" alt="">
+                                </div>
+                                <div class="profile-name-single-product">
+                                    <h1>James Wilson</h1>
+                                    <div class="stars-row-single-product">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-part-first-row-review-single-product">
+                                <p>Nov 18, 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-content-single-product">
+                            <p>An absolutely perfect way to find what is good by searching in websites. Thank you Pro Residence for this website, because you helped me on two occasions. First one when I was selling my house, and second is when I was looking to buy an apartment and I did it here. In 2 cases I am so happy with your work. 
+                            </p>
+                        </div>
+                        <div class="like-review-single-product">
+                            <div class="group-like-review-single-product">
+                                <input type="radio" id="like-review" name="like-dislike" class="like-input-review" aria-label="radio-like">
+                                <label for="like-review" class="like-label-review"><i
+                                        class="fa-regular fa-thumbs-up"></i></label>
+                            </div>
+                            <div class="group-like-review-single-product last-group-like-review-single-product">
+                                <input type="radio" id="dislike-review" name="like-dislike" class="dislike-input-review"  aria-label="radio-like">
+                                <label for="dislike-review" class="dislike-label-review"><i
+                                        class="fa-regular fa-thumbs-down"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="last-row-footer">
+            <h1>@All rights reserved. Made by <strong>Pro Residence</strong></h1>
+        </div>
+    </footer>
+    <script src="aboutLogic.js"></script>
+</body>
+</html>
